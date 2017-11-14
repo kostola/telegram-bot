@@ -1,0 +1,27 @@
+{
+  "name": "kostola-telegram-bot",
+  "version": "1.0.0",
+  "description": "My first public Telegram Bot",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kostola/telegram-bot.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot"
+  ],
+  "author": "Alessandro Costa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kostola/telegram-bot/issues"
+  },
+  "homepage": "https://github.com/kostola/telegram-bot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.29.0"
+  }
+}
